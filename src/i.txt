@@ -1,0 +1,8 @@
+Some error occur when i import R file in App1 
+error is R file not found
+solution is while import in app1 it show small 'r' not capital 'R' and same in R.js file is it show small 'r' in export default r and const r= .
+
+// component like Hook always be in uppercase
+const Hook = () => 
+export default Hook
+//////
