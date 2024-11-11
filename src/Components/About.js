@@ -17,7 +17,7 @@ export default function About(props) {
             </h2>
             <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
               <div className="accordion-body">
-                <strong>Texttutils</strong> is an intuitive and powerful text manipulation tool designed to make your writing tasks easier and more efficient. Whether you need to convert text to uppercase or lowercase, calculate writing speed, copy or clear text, or even speak your text aloud, Texttutils has it all.
+                <strong>Texttutils</strong> is an intuitive and text manipulation tool designed to make your writing tasks easier and more efficient. Whether you need to convert text to uppercase or lowercase, calculate writing speed, copy or clear text, or even speak your text aloud, Texttutils has it all.
               </div>
             </div>
           </div>
