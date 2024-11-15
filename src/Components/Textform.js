@@ -59,7 +59,7 @@ const Textform = (props) => {
         <div className="container-xxl"  style={{ padding: '20px', boxSizing: 'border-box' }}>
             <label htmlFor="mybox" className="form-label" ><h3>Enter the text to analyze </h3></label>
             {/* <textarea className="form-control" id="exampleFormControlTextarea1" rows="3">row=3 indicate size of box  */}
-            <textarea className="form-control" value={text} onChange={handleOnChange} id="exampleFormControlTextarea1" rows="4"  >{/*row=3 indicate size of box*/}
+            <textarea className="form-control" placeholder='Enter text' value={text} onChange={handleOnChange} id="exampleFormControlTextarea1" rows="4"  >{/*row=3 indicate size of box*/}
             </textarea>
             <button className="btn btn-info mx-2 my-3" onClick={handleUpClick}>Convert to Uppercase</button>
             <button className="btn btn-info mx-2 my-3" onClick={handlelowClick}>Convert to Lowercase</button>
