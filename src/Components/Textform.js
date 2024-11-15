@@ -39,11 +39,6 @@ const Textform = (props) => {
             setMessage('Speech synthesis not supported in this browser.');
         }
     }  
-     const handleRemoveDuplicates = () => {
-        const uniqueWords = [...new Set(text.split(" "))].join(" ");
-        settextvalue(uniqueWords);
-        props.showAlert("Duplicate words removed.", "success");
-    }
     const handleOnChange = (event) => {
         // console.log("On Change");
         settextvalue(event.target.value); 
@@ -68,7 +63,6 @@ const Textform = (props) => {
             <button className="btn btn-info mx-2 my-3"  onClick={handleExtraSpaces}>Remove Extra Space</button>
             <button className="btn btn-info mx-2 my-3"  onClick={handleSpeakClick}>Speak Text</button>
             <button className="btn btn-info mx-2 my-3"  onClick={handleCapitalizeWords}>Uppercase First word</button>
-            <button className="btn btn-info mx-2 my-3"  onClick={handleRemoveDuplicates}>RemoveDuplicates</button>
         </div>
         
            <div className="container my-3">
